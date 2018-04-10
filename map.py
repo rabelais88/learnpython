@@ -14,3 +14,7 @@ print("mapped :", x2)
 x3 = list(range(1,30))
 x3 = list(filter(lambda x: (x % 2) == 0, x3))
 print("odd number filtered : ",x3)
+
+cards = ["jack","queen","king"]
+# this automatically gives numbers to each element
+print(list(enumerate(cards)))
