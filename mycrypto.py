@@ -1,3 +1,7 @@
+#######################################################################
+# WARNING
+# this must be run from linux + pycrypto must be installed through pip
+#######################################################################
 from Crypto.Cipher import AES
 #this is for creating string vector
 import random

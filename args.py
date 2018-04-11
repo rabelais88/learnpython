@@ -4,14 +4,14 @@ def revertargs(arg1,arg2):
 
 revertargs(arg2=2,arg1=1)
 
-def arbitraryArgs(*testarg):
+def arbitraryArgs(*testarg): # this returns argument as array
   for i,v in enumerate(testarg):
     print(i,v)
 
 arbitraryArgs("banana","pineapple")
 
 
-def dictArgs(**testarg):
+def dictArgs(**testarg): # this returns argument as dictionary
   for i,v in testarg.items():
     print(i,v)
 
